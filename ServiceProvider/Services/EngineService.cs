@@ -8,6 +8,7 @@ namespace ServiceProvider.Services
     {
         public bool Start(Car car)
         {
+            car.Start();
             return true;
         }
     }
